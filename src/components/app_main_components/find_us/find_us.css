@@ -1,0 +1,56 @@
+.find_us {
+  height: 645px;
+  background-color: #1F1C1C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.find_us h2 {
+  color: white;
+  font-family: 'Quicksand';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.find_us .find_map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.find_us .find_map img {
+  width: 400px;
+}
+
+.find_us .find_map p {
+  color: white;
+  font-family: 'Quicksand';
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 300px;
+  margin-left: 100px;
+}
+/*# sourceMappingURL=find_us.css.map */

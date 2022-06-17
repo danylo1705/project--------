@@ -1,0 +1,38 @@
+.find_us{
+    height: 645px;
+    background-color: #1F1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2{
+      color: white;
+      font-family: 'Quicksand';
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: center;
+
+    }
+    .find_map{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 100px;
+      img{
+        width: 400px;
+      }
+      p{
+        color: white;
+        font-family: 'Quicksand';
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 300px;
+        margin-left: 100px;
+      }
+    }
+  }

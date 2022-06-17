@@ -1,0 +1,23 @@
+.menu_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    h2{
+        font-family: 'Quicksand';
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+    .menu_content_positions{
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+
+    }
+}

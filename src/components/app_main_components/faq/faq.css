@@ -1,0 +1,60 @@
+.container .faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  height: 500px;
+}
+
+.container .faq h2 {
+  font-family: 'Quicksand';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+}
+
+.container .faq .faq_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 80px;
+  width: 1150px;
+}
+
+.container .faq .faq_txt h2 {
+  font-size: 18px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.container .faq .faq_txt span {
+  color: #F46A06;
+}
+
+.container .faq .faq_txt p {
+  width: 506px;
+  margin-top: 7px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555555;
+}
+/*# sourceMappingURL=faq.css.map */

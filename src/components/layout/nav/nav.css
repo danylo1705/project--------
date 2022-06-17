@@ -1,0 +1,101 @@
+.navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  height: 100px;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1230px;
+}
+
+.navbar nav .ul_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar nav .ul_btn ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 377px;
+  margin-right: 50px;
+}
+
+.navbar nav .ul_btn ul li:hover a, .navbar nav .ul_btn ul li:hover .navbar_menu_popup {
+  color: #868080;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  font-size: 23px;
+}
+
+.navbar nav .ul_btn ul li a {
+  color: #F46A06;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.navbar nav .ul_btn ul li .navbar_menu_popup {
+  color: #F46A06;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navbar nav .ul_btn .contact {
+  width: 150px;
+  height: 40px;
+  background-color: #F46A06;
+  border: none;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar nav .ul_btn .contact:hover {
+  background-color: white;
+  color: #F46A06;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  border: 1px solid #F46A06;
+}
+/*# sourceMappingURL=nav.css.map */

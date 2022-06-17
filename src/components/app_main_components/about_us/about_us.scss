@@ -1,0 +1,180 @@
+.container{
+    .about_us{
+      margin-top: 137px;
+      .we_pride{
+        display: flex;
+        align-items: center;
+        img{
+          height: 435px;
+          width: 653px;
+          border-radius: 10px;
+  
+        }
+        .we_pride_txt{
+          margin-left: 55px;
+          h2{
+            font-family: 'Quicksand';
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: black;
+            width: 416px;
+          }
+          p{
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #555555;
+            width: 430px;
+            margin-top: 13px;
+          }
+          button{
+            width: 165px;
+            height: 50px;
+            font-family: 'Roboto';
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: center;
+            border: none;
+            background: #F46A06;
+            color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 27px;
+            cursor: pointer;
+            &:hover{
+              background-color: white;
+              color: #F46A06;
+              transition-duration: 1s;
+              border: 1px solid #F46A06;
+              img{
+                display: none;
+              }
+            }
+            img{
+              height: 10px;
+              width: 7.75px;
+              margin-left: 6px;
+            }
+          }
+        }
+      }
+    }
+    .we_make{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 120px;
+      .we_make_txt{
+        h2{
+          font-family: 'Quicksand';
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: black;
+            width: 464px;
+        }
+        p{
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #555555;
+            width: 464px;
+            margin-top: 23px;
+        }
+        .we_make_ticks{
+          margin-top: 23px;
+          .tick1{
+            display: flex;
+            align-items: center;
+            p{
+              margin-left: 16px;
+              margin-top: 0;
+            }
+            
+          }
+          .tick2{
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+            p{
+              margin-left: 16px;
+              margin-top: 0;
+            }
+            
+          }
+          .tick3{
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+            p{
+              margin-left: 16px;
+              margin-top: 0;
+            }
+            
+          }
+        }
+        button{
+          width: 165px;
+            height: 50px;
+            font-family: 'Roboto';
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: center;
+            border: none;
+            background: #F46A06;
+            color: rgb(255, 255, 255);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            cursor: pointer;
+            &:hover{
+              background-color: white;
+              color: #F46A06;
+              transition-duration: 1s;
+              border: 1px solid #F46A06;
+              img{
+                display: none;
+              }
+            }
+            img{
+              height: 10px;
+              width: 7.75px;
+              margin-left: 6px;
+            }
+        }
+      }
+  
+      .we_make_img{
+        width: 680px;
+        height: 680px;
+        border-radius: 10px;
+        background: url(../../../images/app_main/about_us/we_make_img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        img{
+          position: absolute;
+          right: -120px;
+          top: -270px;
+        }
+      }
+    }
+  }

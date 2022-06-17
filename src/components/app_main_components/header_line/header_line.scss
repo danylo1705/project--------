@@ -1,0 +1,24 @@
+.header_line{
+    width: 100%;
+    height: 165px;
+    background-color: #F46A06;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+    ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+      li{
+        font-family: 'Quicksand';
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+      }
+    }
+  }

@@ -1,0 +1,57 @@
+.container{
+    .our_menu{
+      display: flex;
+      margin-top: 88px;
+      flex-direction: column;
+      align-items: center;
+      h2{
+        font-family: 'Quicksand';
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000;
+        width: 540px;
+        
+      }
+      p{
+        font-family: 'Roboto';
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #111111;
+        width: 704px;
+        margin-top: 46px;
+      }
+      .our_menu_images{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        width: 100%;
+      }
+      .our_menu_popup{
+        width: 150px;
+        height: 40px;
+        border: none;
+        background: #F46A06;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: white;
+        margin-top: 45px;
+        cursor: pointer;
+        &:hover{
+          background-color: white;
+          color: #F46A06;
+          transition-duration: 1s;
+          border: 1px solid #F46A06;
+        }
+      }
+    }
+  }

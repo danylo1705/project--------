@@ -1,0 +1,123 @@
+.popup_cart{
+    overflow-y: auto;
+    max-height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .cart_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        h2{
+            font-family: 'Quicksand';
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #F46A06;
+        }   
+        button{
+            display: flex;
+            align-items: center;
+            background-color: white;
+            cursor: pointer;
+            border: none;
+            img{
+                width: 30px;
+                height: 30px;
+                background-color: white;
+            }
+            p{
+                margin-left: 15px;
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-weight: 400;
+                background-color: white;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #000000;
+            }
+        }
+    }
+    .cart_positions{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .cart_checkout{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        padding-bottom: 30px;
+
+        p{
+            font-family: 'Quicksand';
+            font-size: 35px;
+            font-weight: 500;
+            line-height: 50px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #000000;
+
+            
+        }
+        .checkout_btn{
+            display: flex;
+            align-items: center;
+
+            .tot_price{
+                font-family: 'Quicksand';
+                font-size: 35px;
+                font-weight: 500;
+                line-height: 50px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #F46A06;
+                margin-right: 50px;
+            }
+            button{
+                width: 150px;
+                height: 40px;
+                background-color: #F46A06;
+                border: none;
+                text-align: center;
+                font-family: 'Roboto';
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 19px;
+                letter-spacing: 0em;
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    background-color: white;
+                    color: #F46A06;
+                    transition-duration: 1s;
+                    border: 1px solid #F46A06;
+                  }
+            }
+        }
+    }
+}
+input, button{
+    :active{
+      border-color: yellow;
+      background: saddlebrown;
+    }
+  }
+  .empty_cart{
+    p{
+        font-family: 'Quicksand';
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;   
+        padding-bottom: 30px;
+    }
+  }

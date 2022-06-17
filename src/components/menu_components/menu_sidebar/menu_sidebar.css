@@ -1,0 +1,88 @@
+.menu_sidebar {
+  width: 300px;
+}
+
+.menu_sidebar .menu_all {
+  border: #666262 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.menu_sidebar .menu_all:hover {
+  -webkit-box-shadow: 10px 10px #00000040;
+          box-shadow: 10px 10px #00000040;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+  opacity: .9;
+}
+
+.menu_sidebar .menu_all img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.menu_sidebar .menu_all p {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.menu_sidebar .menu_positions {
+  margin-top: 70px;
+}
+
+.menu_sidebar .menu_positions div {
+  border: #666262 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-top: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.menu_sidebar .menu_positions div:hover {
+  -webkit-box-shadow: 10px 10px 10px #00000040;
+          box-shadow: 10px 10px 10px #00000040;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+  opacity: .9;
+}
+
+.menu_sidebar .menu_positions div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.menu_sidebar .menu_positions div p {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 15px;
+}
+/*# sourceMappingURL=menu_sidebar.css.map */

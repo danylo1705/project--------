@@ -1,0 +1,87 @@
+.testimonials {
+  height: 600px;
+  background-color: #F46A06;
+  margin-top: 42px;
+  padding-top: 100px;
+}
+
+.testimonials h2 {
+  font-family: 'Quicksand';
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.testimonials .slider {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 85px;
+}
+
+.testimonials .slider .testim_slider {
+  width: 1230px;
+  height: 325px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonials .slider .testim_slider div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.testimonials .slider .testim_slider div img {
+  width: 80px;
+  height: 80px;
+}
+
+.testimonials .slider .testim_slider div h2 {
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+  width: 604px;
+  margin-top: 12px;
+}
+
+.testimonials .slider .testim_slider div p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #F46A06;
+  margin-top: 22px;
+}
+/*# sourceMappingURL=testimonials.css.map */
